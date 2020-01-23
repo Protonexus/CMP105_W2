@@ -25,5 +25,16 @@ private:
 	Input* input;
 
 	// Add your object here
+	sf::Font font;
+	sf::Text text;
 
+	sf::Vector2i startPos;
+	sf::Vector2i endPos;
+
+	sf::CircleShape circle;
+	sf::Vector2i circlePos;
+
+	int distanceOfDrag;
+
+	bool MouseLDownLastFrame = false;
 };
